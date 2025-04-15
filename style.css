@@ -12,7 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(113, 75, 4);
+    background-color: rgb(204, 31, 4);
     color: black;
     height: 100px;
 }
