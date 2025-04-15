@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, ;
+    background-image: url(Netflix-Background-prueba-1.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(113, 75, 4);
+    color: black;
+    height: 100px;
+}
+.logo{
+    font-size: 32px;
+    padding-left: 15px;
+
+}
+.searchBar{
+display: flex;
+justify-content: space-evenly;
+
+}
+.searchBar input{
+width: 260px;
+padding:7px;
+font-size: 18px;
+border :none;
+outline: none;
+}
+.searchBar button{
+    width: 100px;
+    background-color:black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-inline:8px ;
+    border-radius: 15px;
+}
+.card{
+    margin-top: 55px;
+}
+
+.moviecard{
+    display: flex;
+    background-color: wheat;
+    padding: 20px;
+    width : 1000px;
+    margin : auto;
+     margin-top: 25px;
+     gap: 20px;
+    border-radius: 5 px;
+}
+.moviecard h1{
+    text-align: center;
+}
+.moviecard .rating{
+    text-align: center;
+}
+.cardText{
+    margin-top: 23px;
+    
+}
+.moviecard p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+ 
+.moviecard a {
+    text-decoration: none;
+    color: white;
+    background-color: #279cdb;
+    padding: 10px; 
+    border-radius: 5px;
+    font-size: 17px;    
+    display : flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    margin-top:10px ;
+
+}
+.moviecard span{
+    color : #3f84aa;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) { 
+    .moviecard{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .moviecard img{
+        width: 100%;
+        height: auto;
+    }
+    .moviecard a{
+        width: 100%;
+    }
+    .searchBar input{
+        width: 80%;
+    }
+    .searchBar button{
+        width: 20%;
+    }
+    .logo{
+        text-align: center;
+    }
+    .searchBar{
+        justify-content: center;
+        display: flex;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        display: block
+    }
+}
+#favBtn 
+{
+ border: 2px solid #183B4E;
+ height: auto;
+ padding: 5px;
+}
